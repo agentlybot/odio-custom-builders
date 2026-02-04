@@ -60,7 +60,7 @@ export function Journey() {
           {journeySteps.map((step, index) => (
             <div key={step.step} className="relative">
               {/* Step Card */}
-              <div className="bg-white rounded-xl p-6 shadow-lg relative z-10 text-center">
+              <div className="bg-white rounded-xl p-6 shadow-lg relative z-10 text-center h-full">
                 {/* Step Number */}
                 <div className="w-12 h-12 bg-gold-500 rounded-full flex items-center justify-center text-navy-900 font-bold text-lg mx-auto mb-4">
                   {step.step}
