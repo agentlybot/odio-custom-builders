@@ -52,7 +52,7 @@ export function Hero({
               href="/services/kitchen-remodeling"
               variant="outline"
               size="lg"
-              className="border-gold-400 text-gold-400 hover:bg-gold-400 hover:text-navy-900"
+              className="bg-white border-gold-400 text-gold-500 hover:bg-white hover:border-gold-500 hover:text-gold-600"
             >
               I&apos;m Planning a Renovation
             </Button>
