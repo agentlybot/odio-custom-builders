@@ -9,8 +9,8 @@ export const SITE_CONFIG = {
   description:
     "Trusted by realtors and homeowners for closing repairs, home maintenance, and transformative renovations.",
   url: "https://odiocustombuilders.com",
-  phone: "8641234567", // Update with real number
-  email: "info@odiocustombuilders.com", // Update with real email
+  phone: "8646261555",
+  email: "info@odiocustombuilders.com",
   address: {
     street: "123 Main Street",
     city: "Greenville",
