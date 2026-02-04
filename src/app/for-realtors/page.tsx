@@ -147,7 +147,8 @@ const services = [
   "Curb appeal updates",
 ];
 
-const realtorTestimonials = TESTIMONIALS.filter((t) => t.type === "realtor");
+// Show top 2 testimonials that highlight communication and quality
+const realtorTestimonials = TESTIMONIALS.slice(0, 2);
 
 export default function ForRealtorsPage() {
   return (
@@ -319,8 +320,8 @@ export default function ForRealtorsPage() {
       {/* Testimonials */}
       <Section background="navy">
         <SectionHeader
-          title="What Realtors Say"
-          subtitle="Hear from the real estate professionals who trust us."
+          title="What Clients Say"
+          subtitle="Quality workmanship and clear communication—what every realtor wants to hear from their referrals."
           dark
         />
         <div className="grid md:grid-cols-2 gap-8">

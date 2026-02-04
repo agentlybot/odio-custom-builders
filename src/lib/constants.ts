@@ -101,30 +101,30 @@ export const STATS = [
 export const TESTIMONIALS = [
   {
     quote:
-      "They handled our closing repairs flawlessly. Three years later, they built our dream kitchen. Couldn't recommend them more.",
-    author: "Sarah M.",
-    role: "Homeowner",
+      "Will Odio responded with an amazing plan to extend our wall into the garage to fit our washer and dryer behind custom built cabinets. We are beyond pleased and more than satisfied with how our custom laundry and pantry cabinets turned out!",
+    author: "HomeAdvisor Customer",
+    role: "Custom Cabinetry Project",
     type: "renovation",
   },
   {
     quote:
-      "As a realtor, I need a contractor I can trust to get deals done on time. Odio has never let me down.",
-    author: "Mike Johnson",
-    role: "RE/MAX Agent",
-    type: "realtor",
-  },
-  {
-    quote:
-      "What started as a simple deck repair turned into a beautiful addition. They earned our trust one project at a time.",
-    author: "The Hendersons",
-    role: "Homeowners",
+      "They offered honest and direct insight into what they could and couldn't do. The level of excellence in execution and materials used for our complete bathroom rebuild after mold remediation was outstanding.",
+    author: "HomeAdvisor Customer",
+    role: "Bathroom Renovation",
     type: "renovation",
   },
   {
     quote:
-      "Professional, communicative, and they actually show up when they say they will. That's rare in this industry.",
-    author: "Jennifer Park",
-    role: "Keller Williams Agent",
-    type: "realtor",
+      "They designed and built a reading nook that surpassed our expectations—complete with electrical outlets, lighting, and toy storage. The attention to detail was incredible.",
+    author: "HomeAdvisor Customer",
+    role: "Custom Build Project",
+    type: "renovation",
+  },
+  {
+    quote:
+      "William and Eric are excellent communicators. Their quality craftsmanship and cleanliness is above average for the construction industry. As a family-owned, owner-led team, they're on-site and hands-on for every project.",
+    author: "HomeAdvisor Customer",
+    role: "Home Renovation",
+    type: "renovation",
   },
 ];

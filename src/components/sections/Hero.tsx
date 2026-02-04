@@ -87,7 +87,7 @@ export function Hero({
                     </svg>
                   ))}
                 </div>
-                <span className="text-sm text-white">500+ 5-Star Reviews</span>
+                <span className="text-sm text-white">5.0 Rating on HomeAdvisor</span>
               </div>
             </div>
           </div>
