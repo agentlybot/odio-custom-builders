@@ -82,7 +82,7 @@ export default function ClosingRepairsPage() {
                 href="/for-realtors"
                 variant="outline"
                 size="lg"
-                className="border-white text-white hover:bg-white hover:text-navy-900"
+                className="bg-white border-gold-400 text-gold-500 hover:bg-white hover:border-gold-500 hover:text-gold-600"
               >
                 Realtor Partner Program
               </Button>
@@ -218,31 +218,6 @@ export default function ClosingRepairsPage() {
         </div>
       </Section>
 
-      {/* CTA */}
-      <Section background="gradient">
-        <div className="text-center max-w-2xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Ready to Get to Closing?
-          </h2>
-          <p className="text-neutral-300 text-lg mb-8">
-            Contact us today with your punch list and closing date. We&apos;ll get
-            back to you within 24 hours with a plan.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button href="/contact" size="lg">
-              Request a Quote
-            </Button>
-            <Button
-              href="/for-realtors"
-              variant="outline"
-              size="lg"
-              className="border-white text-white hover:bg-white hover:text-navy-900"
-            >
-              Realtor Partner Info
-            </Button>
-          </div>
-        </div>
-      </Section>
-    </>
+          </>
   );
 }

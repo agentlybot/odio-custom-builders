@@ -188,24 +188,12 @@ export default function HomeRepairsPage() {
             Many clients who call us for a leaky faucet or deck repair eventually
             trust us with their dream kitchen or home addition.
           </p>
-          <Button href="/services" variant="outline" className="border-white text-white hover:bg-white hover:text-navy-900">
+          <Button
+            href="/services"
+            variant="outline"
+            className="bg-white border-gold-400 text-gold-500 hover:bg-white hover:border-gold-500 hover:text-gold-600"
+          >
             Explore All Services
-          </Button>
-        </div>
-      </Section>
-
-      {/* CTA */}
-      <Section background="gradient">
-        <div className="text-center max-w-2xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Need Something Fixed?
-          </h2>
-          <p className="text-neutral-300 text-lg mb-8">
-            Tell us what&apos;s broken and we&apos;ll get it taken care of. No job too
-            small, no hassle, no runaround.
-          </p>
-          <Button href="/contact" size="lg">
-            Request a Repair
           </Button>
         </div>
       </Section>

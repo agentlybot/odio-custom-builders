@@ -19,9 +19,8 @@ export const SITE_CONFIG = {
   },
   hours: "Monday - Friday: 8AM - 5PM",
   social: {
-    facebook: "https://facebook.com/odiocustombuilders",
-    instagram: "https://instagram.com/odiocustombuilders",
-    linkedin: "https://linkedin.com/company/odiocustombuilders",
+    facebook: "https://www.facebook.com/OdioCustomBuilders/",
+    instagram: "https://instagram.com/odio_custom.builders",
   },
 };
 

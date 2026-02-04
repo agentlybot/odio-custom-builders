@@ -122,7 +122,12 @@ export function ServicesGrid() {
 
       {/* View All CTA */}
       <div className="mt-12 text-center">
-        <Button href="/services" variant="outline" size="lg">
+        <Button
+          href="/services"
+          variant="outline"
+          size="lg"
+          className="bg-white border-gold-400 text-gold-500 hover:bg-white hover:border-gold-500 hover:text-gold-600"
+        >
           View All Services
         </Button>
       </div>

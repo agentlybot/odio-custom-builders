@@ -145,21 +145,6 @@ export default function KitchenRemodelingPage() {
         </div>
       </Section>
 
-      {/* CTA */}
-      <Section background="gradient">
-        <div className="text-center max-w-2xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Ready to Transform Your Kitchen?
-          </h2>
-          <p className="text-neutral-300 text-lg mb-8">
-            Let&apos;s discuss your vision. Schedule a free consultation and get a
-            detailed estimate for your project.
-          </p>
-          <Button href="/contact" size="lg">
-            Schedule a Consultation
-          </Button>
-        </div>
-      </Section>
-    </>
+          </>
   );
 }

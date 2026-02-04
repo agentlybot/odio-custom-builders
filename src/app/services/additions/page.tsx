@@ -175,21 +175,6 @@ export default function AdditionsPage() {
         </div>
       </Section>
 
-      {/* CTA */}
-      <Section background="gradient">
-        <div className="text-center max-w-2xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Ready to Expand Your Home?
-          </h2>
-          <p className="text-neutral-300 text-lg mb-8">
-            Let&apos;s discuss your vision and explore the possibilities for your
-            property.
-          </p>
-          <Button href="/contact" size="lg">
-            Schedule a Consultation
-          </Button>
-        </div>
-      </Section>
-    </>
+          </>
   );
 }
