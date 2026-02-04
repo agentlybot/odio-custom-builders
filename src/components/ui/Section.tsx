@@ -40,6 +40,7 @@ interface SectionHeaderProps {
   subtitle?: string;
   align?: "left" | "center";
   className?: string;
+  dark?: boolean;
 }
 
 export function SectionHeader({
@@ -47,6 +48,7 @@ export function SectionHeader({
   subtitle,
   align = "center",
   className,
+  dark = false,
 }: SectionHeaderProps) {
   return (
     <div
@@ -60,7 +62,8 @@ export function SectionHeader({
       {subtitle && (
         <p
           className={cn(
-            "text-lg md:text-xl text-neutral-600 max-w-3xl",
+            "text-lg md:text-xl max-w-3xl",
+            dark ? "text-neutral-300" : "text-neutral-600",
             align === "center" && "mx-auto"
           )}
         >

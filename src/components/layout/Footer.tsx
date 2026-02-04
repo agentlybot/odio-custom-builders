@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Container, Button } from "@/components/ui";
 import { SITE_CONFIG, NAV_ITEMS, SERVICES } from "@/lib/constants";
 import { formatPhone, telLink, mailtoLink } from "@/lib/utils";
@@ -37,16 +38,14 @@ export function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
             {/* Company Info */}
             <div>
-              <Link href="/" className="flex items-center gap-3 mb-6">
-                <div className="w-10 h-10 bg-gold-500 rounded-lg flex items-center justify-center">
-                  <span className="text-navy-900 font-bold text-xl">O</span>
-                </div>
-                <div>
-                  <span className="font-bold text-xl">Odio</span>
-                  <span className="text-neutral-400 text-sm block -mt-1">
-                    Custom Builders
-                  </span>
-                </div>
+              <Link href="/" className="inline-block mb-6">
+                <Image
+                  src="/logo.jpg"
+                  alt="Odio Custom Builders"
+                  width={120}
+                  height={120}
+                  className="h-20 w-auto rounded-lg"
+                />
               </Link>
               <p className="text-neutral-400 mb-6">
                 {SITE_CONFIG.tagline}. Trusted by realtors and homeowners for

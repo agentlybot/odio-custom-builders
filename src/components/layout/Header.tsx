@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { Button, Container } from "@/components/ui";
 import { NAV_ITEMS, SITE_CONFIG } from "@/lib/constants";
@@ -32,16 +33,15 @@ export function Header() {
       <Container size="wide">
         <nav className="flex items-center justify-between py-4">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-navy-800 rounded-lg flex items-center justify-center">
-              <span className="text-gold-500 font-bold text-xl">O</span>
-            </div>
-            <div className="hidden sm:block">
-              <span className="font-bold text-xl text-navy-900">Odio</span>
-              <span className="text-neutral-600 text-sm block -mt-1">
-                Custom Builders
-              </span>
-            </div>
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/logo.jpg"
+              alt="Odio Custom Builders"
+              width={160}
+              height={160}
+              className="h-14 w-auto"
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}

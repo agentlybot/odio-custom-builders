@@ -321,6 +321,7 @@ export default function ForRealtorsPage() {
         <SectionHeader
           title="What Realtors Say"
           subtitle="Hear from the real estate professionals who trust us."
+          dark
         />
         <div className="grid md:grid-cols-2 gap-8">
           {realtorTestimonials.map((testimonial, index) => (
