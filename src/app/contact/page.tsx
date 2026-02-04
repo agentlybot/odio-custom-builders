@@ -118,39 +118,6 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              {/* Address */}
-              <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-gold-100 rounded-lg flex items-center justify-center text-gold-600 flex-shrink-0">
-                  <svg
-                    className="w-6 h-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                    />
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <h3 className="font-semibold text-navy-900">Office</h3>
-                  <p className="text-neutral-600">
-                    {SITE_CONFIG.address.street}
-                    <br />
-                    {SITE_CONFIG.address.city}, {SITE_CONFIG.address.state}{" "}
-                    {SITE_CONFIG.address.zip}
-                  </p>
-                </div>
-              </div>
             </div>
 
             {/* Quick Links */}
