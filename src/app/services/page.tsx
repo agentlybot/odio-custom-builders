@@ -16,7 +16,7 @@ export default function ServicesPage() {
       <section className="bg-navy-900 py-20">
         <Container>
           <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gold-400 mb-6">
               Our Services
             </h1>
             <p className="text-xl text-neutral-300">

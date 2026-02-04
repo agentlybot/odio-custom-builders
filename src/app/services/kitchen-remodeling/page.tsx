@@ -41,7 +41,7 @@ export default function KitchenRemodelingPage() {
             <span className="inline-block text-gold-400 text-sm font-semibold uppercase tracking-wider mb-4">
               Transformative
             </span>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gold-400 mb-6">
               Kitchen Remodeling
             </h1>
             <p className="text-xl text-neutral-200 mb-8">

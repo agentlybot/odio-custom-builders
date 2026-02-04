@@ -33,10 +33,10 @@ export function Hero({
           {/* Broken Grid Element - Decorative */}
           <div className="absolute -left-4 top-1/2 -translate-y-1/2 w-1 h-32 bg-gold-500 hidden lg:block" />
 
-          <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-6 leading-tight">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-gold-400 mb-6 leading-tight">
             From First Repairs
             <br />
-            <span className="text-gold-400">to Forever Home</span>
+            to Forever Home
           </h1>
 
           <p className="text-xl md:text-2xl text-neutral-200 mb-8 max-w-2xl">

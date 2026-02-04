@@ -71,7 +71,7 @@ export default function AboutPage() {
 
         <Container className="relative z-10 py-20">
           <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gold-400 mb-6">
               Building Trust, One Project at a Time
             </h1>
             <p className="text-xl text-neutral-200">

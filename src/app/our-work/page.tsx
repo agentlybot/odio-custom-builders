@@ -83,7 +83,7 @@ export default function OurWorkPage() {
       <section className="bg-navy-900 py-16">
         <Container>
           <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+            <h1 className="text-4xl md:text-5xl font-bold text-gold-400 mb-4">
               Our Work
             </h1>
             <p className="text-xl text-neutral-300">
