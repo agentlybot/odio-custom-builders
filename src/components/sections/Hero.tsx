@@ -8,9 +8,9 @@ interface HeroProps {
 }
 
 export function Hero({
-  title = "From First Repairs to Forever Home",
+  title = "Forever Homes and First Repairs",
   subtitle = "Trusted by realtors and homeowners for closing repairs, home maintenance, and transformative renovations.",
-  backgroundImage = "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&q=80",
+  backgroundImage = "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=1920&q=80",
 }: HeroProps) {
   return (
     <section className="relative min-h-[90vh] flex items-center">
@@ -34,27 +34,27 @@ export function Hero({
           <div className="absolute -left-4 top-1/2 -translate-y-1/2 w-1 h-32 bg-gold-500 hidden lg:block" />
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-gold-400 mb-6 leading-tight">
-            From First Repairs
+            Forever Homes
             <br />
-            to Forever Home
+            and First Repairs
           </h1>
 
           <p className="text-xl md:text-2xl text-neutral-200 mb-8 max-w-2xl">
             {subtitle}
           </p>
 
-          {/* Dual CTAs - Equal Weight */}
+          {/* Dual CTAs */}
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button href="/services/home-repairs" size="lg">
-              I Need Repairs
+            <Button href="/services/kitchen-remodeling" size="lg">
+              I&apos;m Planning a Renovation
             </Button>
             <Button
-              href="/services/kitchen-remodeling"
+              href="/services/home-repairs"
               variant="outline"
               size="lg"
-              className="bg-white border-gold-400 text-gold-500 hover:bg-white hover:border-gold-500 hover:text-gold-600"
+              className="border-white text-white hover:bg-white/10 hover:border-white"
             >
-              I&apos;m Planning a Renovation
+              I Need Repairs
             </Button>
           </div>
 
@@ -76,7 +76,7 @@ export function Hero({
                   </svg>
                 ))}
               </div>
-              <span className="text-white font-medium">5.0 Rating on HomeAdvisor</span>
+              <span className="text-white font-medium">5-Star Rated by Our Customers</span>
             </div>
           </div>
         </div>

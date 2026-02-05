@@ -5,7 +5,7 @@
 
 export const SITE_CONFIG = {
   name: "Odio Custom Builders",
-  tagline: "From First Repairs to Forever Home",
+  tagline: "Forever Homes and First Repairs",
   description:
     "Trusted by realtors and homeowners for closing repairs, home maintenance, and transformative renovations.",
   url: "https://odiocustombuilders.com",
@@ -29,11 +29,11 @@ export const NAV_ITEMS = [
     label: "Services",
     href: "/services",
     children: [
-      { label: "Closing & Prelisting Repairs", href: "/services/closing-repairs" },
-      { label: "Home Repairs", href: "/services/home-repairs" },
       { label: "Kitchen Remodeling", href: "/services/kitchen-remodeling" },
       { label: "Bathroom Remodeling", href: "/services/bathroom-remodeling" },
       { label: "Additions & Custom Builds", href: "/services/additions" },
+      { label: "Closing & Prelisting Repairs", href: "/services/closing-repairs" },
+      { label: "Home Repairs", href: "/services/home-repairs" },
     ],
   },
   { label: "Our Work", href: "/our-work" },
@@ -43,24 +43,6 @@ export const NAV_ITEMS = [
 ];
 
 export const SERVICES = [
-  {
-    slug: "closing-repairs",
-    title: "Closing & Prelisting Repairs",
-    shortTitle: "Closing Repairs",
-    description:
-      "Get smoothly to closing with a contractor you can depend on. We handle inspection repairs, prelisting prep, and everything in between.",
-    icon: "key",
-    image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
-  },
-  {
-    slug: "home-repairs",
-    title: "Home Repairs",
-    shortTitle: "Home Repairs",
-    description:
-      "No job too small. From leaky faucets to deck repairs, we bring the same quality and professionalism to every project.",
-    icon: "wrench",
-    image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80",
-  },
   {
     slug: "kitchen-remodeling",
     title: "Kitchen Remodeling",
@@ -86,7 +68,25 @@ export const SERVICES = [
     description:
       "Expand your living space. Room additions, sunrooms, and custom builds that seamlessly integrate with your existing home.",
     icon: "home",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?w=800&q=80",
+  },
+  {
+    slug: "closing-repairs",
+    title: "Closing & Prelisting Repairs",
+    shortTitle: "Closing Repairs",
+    description:
+      "Get smoothly to closing with a contractor you can depend on. We handle inspection repairs, prelisting prep, and everything in between.",
+    icon: "key",
+    image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
+  },
+  {
+    slug: "home-repairs",
+    title: "Home Repairs",
+    shortTitle: "Home Repairs",
+    description:
+      "No job too small. From leaky faucets to deck repairs, we bring the same quality and professionalism to every project.",
+    icon: "wrench",
+    image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80",
   },
 ];
 
@@ -101,28 +101,28 @@ export const TESTIMONIALS = [
   {
     quote:
       "Will Odio responded with an amazing plan to extend our wall into the garage to fit our washer and dryer behind custom built cabinets. We are beyond pleased and more than satisfied with how our custom laundry and pantry cabinets turned out!",
-    author: "HomeAdvisor Customer",
+    author: "Verified Customer",
     role: "Custom Cabinetry Project",
     type: "renovation",
   },
   {
     quote:
       "They offered honest and direct insight into what they could and couldn't do. The level of excellence in execution and materials used for our complete bathroom rebuild after mold remediation was outstanding.",
-    author: "HomeAdvisor Customer",
+    author: "Verified Customer",
     role: "Bathroom Renovation",
     type: "renovation",
   },
   {
     quote:
       "They designed and built a reading nook that surpassed our expectations—complete with electrical outlets, lighting, and toy storage. The attention to detail was incredible.",
-    author: "HomeAdvisor Customer",
+    author: "Verified Customer",
     role: "Custom Build Project",
     type: "renovation",
   },
   {
     quote:
       "William and Eric are excellent communicators. Their quality craftsmanship and cleanliness is above average for the construction industry. As a family-owned, owner-led team, they're on-site and hands-on for every project.",
-    author: "HomeAdvisor Customer",
+    author: "Verified Customer",
     role: "Home Renovation",
     type: "renovation",
   },

@@ -6,6 +6,7 @@ import {
   TrustStack,
   Testimonials,
   ProjectGallery,
+  StartProject,
 } from "@/components/sections";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <ServicesGrid />
       <RealtorCallout />
       <ProjectGallery />
+      <StartProject />
       <TrustStack />
       <Testimonials />
     </>

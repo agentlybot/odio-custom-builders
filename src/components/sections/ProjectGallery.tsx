@@ -4,14 +4,14 @@ import { Section, SectionHeader, Button } from "@/components/ui";
 
 const projects = [
   {
-    title: "Modern Kitchen Remodel",
+    title: "Craftsman Kitchen Remodel",
     category: "Kitchen",
     image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
     size: "large",
   },
   {
-    title: "Closing Repairs - Deck Restoration",
-    category: "Repairs",
+    title: "Custom Deck Build",
+    category: "Outdoor",
     image: "https://images.unsplash.com/photo-1591825729269-caeb344f6df2?w=800&q=80",
     size: "small",
   },
@@ -22,21 +22,21 @@ const projects = [
     size: "small",
   },
   {
-    title: "Sunroom Addition",
+    title: "Craftsman Home Addition",
     category: "Addition",
-    image: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?w=800&q=80",
     size: "medium",
   },
   {
-    title: "HVAC Repair - Pre-Closing",
-    category: "Repairs",
+    title: "Basement Renovation",
+    category: "Renovation",
     image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80",
     size: "small",
   },
   {
-    title: "Whole Home Renovation",
+    title: "Craftsman Bungalow Renovation",
     category: "Renovation",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80",
     size: "medium",
   },
 ];
