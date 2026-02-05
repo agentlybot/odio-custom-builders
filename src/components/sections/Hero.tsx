@@ -10,7 +10,7 @@ interface HeroProps {
 export function Hero({
   title = "Forever Homes and First Repairs",
   subtitle = "Trusted by realtors and homeowners for closing repairs, home maintenance, and transformative renovations.",
-  backgroundImage = "https://images.unsplash.com/photo-719ljc33Fgs?w=1920&q=80",
+  backgroundImage = "https://images.pexels.com/photos/35689825/pexels-photo-35689825.jpeg?auto=compress&cs=tinysrgb&w=1920",
 }: HeroProps) {
   return (
     <section className="relative min-h-[90vh] flex items-center">
