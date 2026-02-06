@@ -16,17 +16,21 @@ export function StartProject() {
     setStatus("submitting");
     setErrorMessage("");
 
-    const formData = new FormData(e.currentTarget);
-    formData.set("projectType", projectType);
+    try {
+      const formData = new FormData(e.currentTarget);
+      formData.set("projectType", projectType);
 
-    const result = await submitProject(formData);
+      const result = await submitProject(formData);
 
-    if (result.success) {
-      setStatus("success");
-      (e.target as HTMLFormElement).reset();
-    } else {
+      if (result.success) {
+        setStatus("success");
+      } else {
+        setStatus("error");
+        setErrorMessage(result.error || "Something went wrong. Please try again.");
+      }
+    } catch {
       setStatus("error");
-      setErrorMessage(result.error || "Something went wrong. Please try again.");
+      setErrorMessage("Something went wrong. Please call us at (864) 626-1555 instead.");
     }
   }
 
@@ -48,8 +52,11 @@ export function StartProject() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
             </svg>
             <h3 className="text-xl font-semibold text-white mb-2">We Got Your Request!</h3>
-            <p className="text-neutral-300">
-              We&apos;ll be in touch soon to schedule your free consultation.
+            <p className="text-neutral-300 mb-4">
+              A member of our team will follow up within 1 business day to schedule your free phone consultation.
+            </p>
+            <p className="text-neutral-400 text-sm">
+              Need to reach us sooner? Call <a href="tel:8646261555" className="text-gold-400 hover:text-gold-300">(864) 626-1555</a>
             </p>
           </div>
         ) : (

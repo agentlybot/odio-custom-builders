@@ -27,6 +27,11 @@ export async function submitProject(formData: FormData): Promise<SubmitResult> {
     evening: "Evening (5PM - 7PM)",
   };
 
+  if (!process.env.RESEND_API_KEY) {
+    console.error("RESEND_API_KEY is not configured");
+    return { success: false, error: "Email service is not configured. Please call us at (864) 626-1555." };
+  }
+
   try {
     await resend.emails.send({
       from: "Odio Custom Builders <noreply@odiocustombuilders.com>",
