@@ -95,7 +95,7 @@ export default function ServicesPage() {
             Whether it&apos;s a small repair or a major renovation, we&apos;re happy to
             discuss your project and help you find the right solution.
           </p>
-          <Button href="/contact" size="lg">
+          <Button href="/#start-project" size="lg">
             Schedule a Free Consultation
           </Button>
         </div>

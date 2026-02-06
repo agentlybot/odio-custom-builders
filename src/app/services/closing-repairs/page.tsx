@@ -75,7 +75,7 @@ export default function ClosingRepairsPage() {
               between.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button href="/contact" size="lg">
+              <Button href="/#start-project" size="lg">
                 Get a Quote
               </Button>
               <Button

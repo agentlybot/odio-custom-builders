@@ -73,7 +73,7 @@ export default function HomeRepairsPage() {
               From leaky faucets to deck repairs, we bring the same quality and
               professionalism to every project—big or small.
             </p>
-            <Button href="/contact" size="lg">
+            <Button href="/#start-project" size="lg">
               Schedule a Repair
             </Button>
           </div>

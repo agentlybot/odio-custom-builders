@@ -48,7 +48,7 @@ export default function KitchenRemodelingPage() {
               Transform the heart of your home. Custom cabinetry, countertops,
               appliances, and layouts designed for how you live.
             </p>
-            <Button href="/contact" size="lg">
+            <Button href="/#start-project" size="lg">
               Start Your Kitchen Project
             </Button>
           </div>

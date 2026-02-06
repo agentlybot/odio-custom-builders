@@ -161,7 +161,7 @@ export default function OurWorkPage() {
             Whether you have a vision in mind or need help exploring options,
             we&apos;re here to guide you through the process.
           </p>
-          <Button href="/contact" size="lg">
+          <Button href="/#start-project" size="lg">
             Schedule a Consultation
           </Button>
         </div>

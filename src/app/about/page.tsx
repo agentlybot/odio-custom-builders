@@ -218,7 +218,7 @@ export default function AboutPage() {
             Whether it&apos;s a small repair or a big dream, we&apos;d love to
             hear about your project.
           </p>
-          <Button href="/contact" size="lg">
+          <Button href="/#start-project" size="lg">
             Get in Touch
           </Button>
         </div>

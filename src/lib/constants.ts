@@ -38,7 +38,7 @@ export const NAV_ITEMS = [
   },
   { label: "Our Work", href: "/our-work" },
   { label: "For Realtors", href: "/for-realtors" },
-  { label: "Contact", href: "/contact" },
+  { label: "Contact", href: "/#start-project" },
 ];
 
 export const SERVICES = [

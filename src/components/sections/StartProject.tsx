@@ -47,7 +47,7 @@ export function StartProject() {
   }
 
   return (
-    <Section background="navy" className="bg-gradient-to-br from-navy-900 via-navy-800 to-navy-900">
+    <Section id="start-project" background="navy" className="bg-gradient-to-br from-navy-900 via-navy-800 to-navy-900">
       <div className="max-w-2xl mx-auto">
         <div className="text-center mb-10">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">

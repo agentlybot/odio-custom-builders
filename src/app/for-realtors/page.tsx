@@ -181,7 +181,7 @@ export default function ForRealtorsPage() {
               clients smoothly to closing.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button href="/contact" size="lg">
+              <Button href="/#start-project" size="lg">
                 Become a Partner
               </Button>
               <Button
@@ -368,7 +368,7 @@ export default function ForRealtorsPage() {
             business.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button href="/contact" size="lg">
+            <Button href="/#start-project" size="lg">
               Become a Partner
             </Button>
             <Button

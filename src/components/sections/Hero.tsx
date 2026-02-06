@@ -45,11 +45,11 @@ export function Hero({
 
           {/* Dual CTAs */}
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button href="/services/kitchen-remodeling" size="lg">
+            <Button href="/#start-project" size="lg">
               I&apos;m Planning a Renovation
             </Button>
             <Button
-              href="/services/home-repairs"
+              href="/#start-project"
               variant="outline"
               size="lg"
               className="bg-white border-gold-400 text-gold-500 hover:bg-white hover:border-gold-500 hover:text-gold-600"

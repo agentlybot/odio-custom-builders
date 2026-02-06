@@ -21,7 +21,7 @@ export function Footer() {
               of a whole new kitchen—we&apos;re ready when you are.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button href="/contact" size="lg">
+              <Button href="/#start-project" size="lg">
                 Start a Conversation
               </Button>
               <Button href="/for-realtors" variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-navy-900">

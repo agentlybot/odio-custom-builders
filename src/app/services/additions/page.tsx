@@ -37,7 +37,7 @@ export default function AdditionsPage() {
               Expand your living space. Room additions, sunrooms, and custom builds
               that seamlessly integrate with your existing home.
             </p>
-            <Button href="/contact" size="lg">
+            <Button href="/#start-project" size="lg">
               Discuss Your Addition
             </Button>
           </div>

@@ -102,7 +102,7 @@ export function Header() {
 
           {/* CTA + Mobile Menu */}
           <div className="flex items-center gap-4">
-            <Button href="/contact" className="hidden sm:inline-flex">
+            <Button href="/#start-project" className="hidden sm:inline-flex">
               Get a Quote
             </Button>
 
@@ -183,7 +183,7 @@ export function Header() {
                 >
                   {formatPhone(SITE_CONFIG.phone)}
                 </a>
-                <Button href="/contact" className="w-full mt-2">
+                <Button href="/#start-project" className="w-full mt-2">
                   Get a Quote
                 </Button>
               </div>

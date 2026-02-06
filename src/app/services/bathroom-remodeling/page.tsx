@@ -48,7 +48,7 @@ export default function BathroomRemodelingPage() {
               Create your personal retreat. From powder rooms to spa-like master
               baths, we handle every detail.
             </p>
-            <Button href="/contact" size="lg">
+            <Button href="/#start-project" size="lg">
               Start Your Bathroom Project
             </Button>
           </div>
