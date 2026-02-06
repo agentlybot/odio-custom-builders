@@ -6,3 +6,4 @@ export { TrustStack } from "./TrustStack";
 export { Testimonials } from "./Testimonials";
 export { ProjectGallery } from "./ProjectGallery";
 export { StartProject } from "./StartProject";
+export { RealtorPartnerForm } from "./RealtorPartnerForm";

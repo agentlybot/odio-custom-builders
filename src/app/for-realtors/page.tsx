@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Container, Section, SectionHeader, Button } from "@/components/ui";
 import { SITE_CONFIG, TESTIMONIALS } from "@/lib/constants";
 import { formatPhone, telLink } from "@/lib/utils";
+import { RealtorPartnerForm } from "@/components/sections/RealtorPartnerForm";
 
 export const metadata: Metadata = {
   title: "For Realtors | Partner Program",
@@ -181,14 +182,14 @@ export default function ForRealtorsPage() {
               clients smoothly to closing.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button href="/#start-project" size="lg">
+              <Button href="#realtor-partner" size="lg">
                 Become a Partner
               </Button>
               <Button
                 href={telLink(SITE_CONFIG.phone)}
                 variant="outline"
                 size="lg"
-                className="border-white text-white hover:bg-white hover:text-navy-900"
+                className="bg-white border-gold-400 text-gold-500 hover:bg-white hover:border-gold-500 hover:text-gold-600"
               >
                 Call: {formatPhone(SITE_CONFIG.phone)}
               </Button>
@@ -356,32 +357,8 @@ export default function ForRealtorsPage() {
         </div>
       </Section>
 
-      {/* Contact Form CTA */}
-      <Section background="gradient">
-        <div className="text-center max-w-2xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Join Our Realtor Partner Network
-          </h2>
-          <p className="text-neutral-300 text-lg mb-8">
-            Get priority access, a direct line to our team, and the peace of mind
-            that comes from working with a contractor who understands your
-            business.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button href="/#start-project" size="lg">
-              Become a Partner
-            </Button>
-            <Button
-              href={telLink(SITE_CONFIG.phone)}
-              variant="outline"
-              size="lg"
-              className="border-white text-white hover:bg-white hover:text-navy-900"
-            >
-              Call: {formatPhone(SITE_CONFIG.phone)}
-            </Button>
-          </div>
-        </div>
-      </Section>
+      {/* Realtor Partner Form */}
+      <RealtorPartnerForm />
     </>
   );
 }
