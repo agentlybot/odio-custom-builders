@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { Section } from "@/components/ui";
-import { submitProject } from "@/app/actions/submitProject";
 
 type ProjectType = "renovation" | "repair";
 
@@ -17,10 +16,23 @@ export function StartProject() {
     setErrorMessage("");
 
     try {
-      const formData = new FormData(e.currentTarget);
-      formData.set("projectType", projectType);
+      const form = e.currentTarget;
+      const body = {
+        name: (form.elements.namedItem("name") as HTMLInputElement).value,
+        email: (form.elements.namedItem("email") as HTMLInputElement).value,
+        phone: (form.elements.namedItem("phone") as HTMLInputElement).value,
+        description: (form.elements.namedItem("description") as HTMLTextAreaElement).value,
+        preferredTime: (form.elements.namedItem("preferredTime") as HTMLSelectElement).value,
+        projectType,
+      };
 
-      const result = await submitProject(formData);
+      const res = await fetch("/api/submit-project", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      });
+
+      const result = await res.json();
 
       if (result.success) {
         setStatus("success");
