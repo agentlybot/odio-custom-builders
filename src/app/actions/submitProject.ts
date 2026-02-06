@@ -29,7 +29,7 @@ export async function submitProject(formData: FormData): Promise<SubmitResult> {
 
   try {
     await resend.emails.send({
-      from: "Odio Website <onboarding@resend.dev>",
+      from: "Odio Custom Builders <noreply@odiocustombuilders.com>",
       to: "info@odiocustombuilders.com",
       subject: `New ${projectType === "renovation" ? "Renovation" : "Repair"} Project Inquiry from ${name}`,
       html: `
