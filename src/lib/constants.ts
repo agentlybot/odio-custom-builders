@@ -37,7 +37,6 @@ export const NAV_ITEMS = [
     ],
   },
   { label: "Our Work", href: "/our-work" },
-  { label: "About", href: "/about" },
   { label: "For Realtors", href: "/for-realtors" },
   { label: "Contact", href: "/contact" },
 ];
