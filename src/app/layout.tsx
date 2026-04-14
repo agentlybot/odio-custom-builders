@@ -12,8 +12,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.odiocustombuilders.com"),
   title: {
-    default: `${SITE_CONFIG.name} | Remodeling & Home Repairs in ${SITE_CONFIG.address.city}, ${SITE_CONFIG.address.state}`,
+    default: `${SITE_CONFIG.name} | Remodeling & Repairs, ${SITE_CONFIG.address.city} SC`,
     template: `%s | ${SITE_CONFIG.name}`,
   },
   description: SITE_CONFIG.description,
@@ -30,6 +31,11 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: SITE_CONFIG.name }],
   creator: SITE_CONFIG.name,
+  icons: {
+    icon: "/logo.jpg",
+    shortcut: "/logo.jpg",
+    apple: "/logo.jpg",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -37,11 +43,20 @@ export const metadata: Metadata = {
     siteName: SITE_CONFIG.name,
     title: SITE_CONFIG.name,
     description: SITE_CONFIG.description,
+    images: [
+      {
+        url: "https://images.pexels.com/photos/35689825/pexels-photo-35689825.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        width: 1200,
+        height: 800,
+        alt: "Odio Custom Builders — Home Remodeling & Repairs in Greenville, SC",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: SITE_CONFIG.name,
     description: SITE_CONFIG.description,
+    images: ["https://images.pexels.com/photos/35689825/pexels-photo-35689825.jpeg?auto=compress&cs=tinysrgb&w=1200"],
   },
   robots: {
     index: true,

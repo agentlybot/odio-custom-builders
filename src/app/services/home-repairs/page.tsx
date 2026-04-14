@@ -6,6 +6,10 @@ import { SITE_CONFIG } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Home Repairs",
   description: `No job too small. ${SITE_CONFIG.name} provides quality home repair services in ${SITE_CONFIG.address.city}, ${SITE_CONFIG.address.state}. From leaky faucets to deck repairs, we bring professionalism to every project.`,
+  alternates: { canonical: '/services/home-repairs' },
+  openGraph: {
+    images: [{ url: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1920&q=80', width: 1920, height: 1080, alt: 'Home repair work' }],
+  },
 };
 
 const repairCategories = [

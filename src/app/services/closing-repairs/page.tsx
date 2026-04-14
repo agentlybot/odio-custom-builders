@@ -6,6 +6,9 @@ import { SITE_CONFIG } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Closing & Prelisting Repairs",
   description: `Get smoothly to closing with a contractor you can depend on. ${SITE_CONFIG.name} handles inspection repairs, prelisting prep, and everything in between in ${SITE_CONFIG.address.city}, ${SITE_CONFIG.address.state}.`,
+  alternates: {
+    canonical: "/services/closing-repairs",
+  },
 };
 
 const services = [
@@ -163,9 +166,9 @@ export default function ClosingRepairsPage() {
               <div className="w-16 h-16 bg-gold-100 rounded-full flex items-center justify-center text-gold-600 mx-auto mb-4">
                 {prop.icon}
               </div>
-              <h3 className="text-xl font-semibold text-navy-900 mb-2">
+              <h2 className="text-xl font-semibold text-navy-900 mb-2">
                 {prop.title}
-              </h3>
+              </h2>
               <p className="text-neutral-600">{prop.description}</p>
             </div>
           ))}

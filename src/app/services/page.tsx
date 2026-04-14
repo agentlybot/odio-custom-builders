@@ -7,6 +7,10 @@ import { SERVICES, SITE_CONFIG } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Our Services",
   description: `From closing repairs to complete home renovations, ${SITE_CONFIG.name} delivers quality craftsmanship for every project. Serving ${SITE_CONFIG.address.city}, ${SITE_CONFIG.address.state}.`,
+  alternates: { canonical: '/services' },
+  openGraph: {
+    images: [{ url: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1920&q=80', width: 1920, height: 1080, alt: 'Home remodeling services' }],
+  },
 };
 
 export default function ServicesPage() {

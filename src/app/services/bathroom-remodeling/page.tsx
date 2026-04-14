@@ -6,6 +6,10 @@ import { SITE_CONFIG } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Bathroom Remodeling",
   description: `Create your personal retreat with ${SITE_CONFIG.name}. From powder rooms to spa-like master baths in ${SITE_CONFIG.address.city}, ${SITE_CONFIG.address.state}.`,
+  alternates: { canonical: '/services/bathroom-remodeling' },
+  openGraph: {
+    images: [{ url: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=1920&q=80', width: 1920, height: 1080, alt: 'Luxury bathroom remodel' }],
+  },
 };
 
 const features = [

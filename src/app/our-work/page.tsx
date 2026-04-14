@@ -6,6 +6,9 @@ import { SITE_CONFIG } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Our Work",
   description: `View our portfolio of home repairs, kitchen remodels, bathroom renovations, and custom builds in ${SITE_CONFIG.address.city}, ${SITE_CONFIG.address.state}.`,
+  alternates: {
+    canonical: "/our-work",
+  },
 };
 
 const projects = [
@@ -114,6 +117,10 @@ export default function OurWorkPage() {
 
       {/* Projects Grid */}
       <Section background="light" className="pt-0">
+        <SectionHeader
+          title="Project Gallery"
+          subtitle="From kitchen remodels to closing repairs — a sample of our work in the Upstate."
+        />
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div

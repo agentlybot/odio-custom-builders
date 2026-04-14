@@ -6,6 +6,10 @@ import { SITE_CONFIG } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Kitchen Remodeling",
   description: `Transform the heart of your home with ${SITE_CONFIG.name}. Custom kitchen remodeling in ${SITE_CONFIG.address.city}, ${SITE_CONFIG.address.state}. From design to completion.`,
+  alternates: { canonical: '/services/kitchen-remodeling' },
+  openGraph: {
+    images: [{ url: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1920&q=80', width: 1920, height: 1080, alt: 'Modern kitchen remodel' }],
+  },
 };
 
 const features = [
