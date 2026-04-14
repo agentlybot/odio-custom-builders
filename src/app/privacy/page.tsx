@@ -4,6 +4,7 @@ import { SITE_CONFIG } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
+  description: "Odio Custom Builders privacy policy. Learn how we collect, use, and protect your personal information when you contact us or request a project estimate.",
   alternates: {
     canonical: "/privacy",
   },

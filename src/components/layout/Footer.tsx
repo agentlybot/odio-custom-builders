@@ -112,6 +112,22 @@ export function Footer() {
                     Realtor Partner Program
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href="/about"
+                    className="text-neutral-400 hover:text-gold-500 transition-colors"
+                  >
+                    About Us
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/contact"
+                    className="text-neutral-400 hover:text-gold-500 transition-colors"
+                  >
+                    Contact
+                  </Link>
+                </li>
               </ul>
             </div>
 

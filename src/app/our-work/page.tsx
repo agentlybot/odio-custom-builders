@@ -5,7 +5,7 @@ import { SITE_CONFIG } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Our Work",
-  description: `View our portfolio of home repairs, kitchen remodels, bathroom renovations, and custom builds in ${SITE_CONFIG.address.city}, ${SITE_CONFIG.address.state}.`,
+  description: "Browse our portfolio of home repairs, kitchen remodels, bathroom renovations, and custom builds by Odio Custom Builders in Greenville, SC.",
   alternates: {
     canonical: "/our-work",
   },

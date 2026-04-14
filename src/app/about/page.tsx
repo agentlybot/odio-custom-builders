@@ -5,7 +5,11 @@ import { SITE_CONFIG, STATS } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: `Learn about ${SITE_CONFIG.name} - your trusted partner for home repairs and renovations in ${SITE_CONFIG.address.city}, ${SITE_CONFIG.address.state}. Our story, team, and values.`,
+  description: `Meet the team behind ${SITE_CONFIG.name}. 15+ years of trusted home repairs and renovations in ${SITE_CONFIG.address.city}, ${SITE_CONFIG.address.state}. Our story, values, and people.`,
+  alternates: { canonical: "/about" },
+  openGraph: {
+    images: [{ url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&q=80", width: 1920, height: 1080, alt: "Odio Custom Builders team" }],
+  },
 };
 
 const values = [

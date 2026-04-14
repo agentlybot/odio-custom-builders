@@ -5,7 +5,11 @@ import { formatPhone, telLink, mailtoLink } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "Contact Us",
-  description: `Get in touch with ${SITE_CONFIG.name} for a free consultation. Home repairs, remodeling, and custom builds in ${SITE_CONFIG.address.city}, ${SITE_CONFIG.address.state}.`,
+  description: `Request a free consultation with ${SITE_CONFIG.name}. We handle home repairs, remodeling, and custom builds in ${SITE_CONFIG.address.city}, SC. Response within 24 hours.`,
+  alternates: { canonical: "/contact" },
+  openGraph: {
+    images: [{ url: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1920&q=80", width: 1920, height: 1080, alt: "Contact Odio Custom Builders" }],
+  },
 };
 
 const projectTypes = [

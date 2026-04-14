@@ -5,36 +5,42 @@ import { Section, SectionHeader, Button } from "@/components/ui";
 const projects = [
   {
     title: "Craftsman Kitchen Remodel",
+    alt: "Custom shaker cabinets and quartz countertops in a craftsman-style kitchen remodel",
     category: "Kitchen",
     image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
     size: "large",
   },
   {
     title: "Custom Deck Build",
+    alt: "Newly built wooden deck with railings for outdoor living",
     category: "Outdoor",
     image: "https://images.unsplash.com/photo-1591825729269-caeb344f6df2?w=800&q=80",
     size: "small",
   },
   {
     title: "Spa Bathroom Renovation",
+    alt: "Luxury spa bathroom with walk-in shower and soaking tub",
     category: "Bathroom",
     image: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&q=80",
     size: "small",
   },
   {
     title: "Craftsman Home Addition",
+    alt: "Craftsman-style home addition expanding the main living area",
     category: "Addition",
     image: "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?w=800&q=80",
     size: "medium",
   },
   {
     title: "Basement Renovation",
+    alt: "Finished basement renovation with modern flooring and lighting",
     category: "Renovation",
     image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80",
     size: "small",
   },
   {
     title: "Craftsman Bungalow Renovation",
+    alt: "Craftsman bungalow exterior after full home renovation",
     category: "Renovation",
     image: "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80",
     size: "medium",
@@ -77,7 +83,7 @@ export function ProjectGallery() {
               >
                 <Image
                   src={project.image}
-                  alt={project.title}
+                  alt={project.alt}
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                   sizes="(max-width: 768px) 50vw, 25vw"

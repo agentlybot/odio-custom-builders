@@ -107,7 +107,8 @@ export function StartProject() {
             <form
               data-jobtread-web-form="true"
               data-key="22SYJrejK2QTk2Z7WhRRTUgY9tg3rg9nYe"
-              data-success-message="success"
+              data-success-message="Thank you for reaching out with your information! We will contact you soon!"
+              data-success-url="https://www.odiocustombuilders.com"
               className="space-y-6"
             >
               {/* Row 1: Name + Email */}
@@ -193,11 +194,12 @@ export function StartProject() {
               {/* Row 4: Project Description */}
               <div>
                 <label htmlFor="jt-description" className={labelClasses}>
-                  Briefly Describe Your Project
+                  Briefly Describe Your Project *
                 </label>
                 <textarea
                   id="jt-description"
                   name="account.custom.22NpA3EKVPrA"
+                  required
                   rows={3}
                   className={`${inputClasses} resize-none`}
                   placeholder="Tell us about your project..."

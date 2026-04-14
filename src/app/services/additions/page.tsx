@@ -5,7 +5,7 @@ import { SITE_CONFIG } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Additions & Custom Builds",
-  description: `Expand your living space with ${SITE_CONFIG.name}. Room additions, sunrooms, and custom builds in ${SITE_CONFIG.address.city}, ${SITE_CONFIG.address.state}.`,
+  description: "Expand your home with Odio Custom Builders. Room additions, sunrooms, second stories, and custom builds that blend seamlessly in Greenville, SC.",
   alternates: { canonical: '/services/additions' },
   openGraph: {
     images: [{ url: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&q=80', width: 1920, height: 1080, alt: 'Home addition' }],
