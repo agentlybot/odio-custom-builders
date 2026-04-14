@@ -4,7 +4,7 @@ import { SITE_CONFIG } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Terms of Service",
-  description: "Odio Custom Builders terms of service. Services are subject to written estimates. Use of this site constitutes acceptance of these terms, governed by South Carolina law.",
+  description: "Terms of service for Odio Custom Builders. Services subject to written estimates. Use of this site constitutes acceptance, governed by South Carolina law.",
   alternates: {
     canonical: "/terms",
   },

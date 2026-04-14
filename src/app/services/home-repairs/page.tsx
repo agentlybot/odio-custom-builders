@@ -5,7 +5,7 @@ import { SITE_CONFIG } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Home Repairs",
-  description: `No job too small. ${SITE_CONFIG.name} provides quality home repair services in ${SITE_CONFIG.address.city}, ${SITE_CONFIG.address.state}. From leaky faucets to deck repairs, we bring professionalism to every project.`,
+  description: "No job too small. Quality home repair services in Greenville, SC — from leaky faucets to deck repairs, drywall, and painting. Same professionalism every time.",
   alternates: { canonical: '/services/home-repairs' },
   openGraph: {
     images: [{ url: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1920&q=80', width: 1920, height: 1080, alt: 'Home repair work' }],

@@ -5,7 +5,7 @@ import { SITE_CONFIG } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Closing & Prelisting Repairs",
-  description: `Get smoothly to closing with a contractor you can depend on. ${SITE_CONFIG.name} handles inspection repairs, prelisting prep, and everything in between in ${SITE_CONFIG.address.city}, ${SITE_CONFIG.address.state}.`,
+  description: "Get to closing on time with a contractor you can depend on. We handle inspection repairs, prelisting prep, and full punch lists in Greenville, SC.",
   alternates: {
     canonical: "/services/closing-repairs",
   },
